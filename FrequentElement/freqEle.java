@@ -17,6 +17,7 @@ public class freqEle {
 
         Integer maxFreq = 0;
         Integer key = -1;
+        
         for(Integer k: freq.keySet()){
             if(freq.get(k) > maxFreq){
                 maxFreq = freq.get(k);
