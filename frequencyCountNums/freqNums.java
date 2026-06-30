@@ -22,10 +22,5 @@ public class freqNums {
 
         System.out.println(freq);
 
-        HashMap<Integer,Integer> map = new HashMap<>();
-
-        map.put(1, 5);
-
-        System.out.println(map.getOrDefault(2, 0));
     }
 }
